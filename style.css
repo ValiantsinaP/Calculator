@@ -1,0 +1,107 @@
+body {
+    background-color: #19A7CE;
+}
+#heading {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+#container {
+    display: flex;
+    justify-content: space-around;
+}
+.picture {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    padding: 20px;
+}
+.text {
+    margin: 10px;
+    font-size: 30px;
+    background-color: aliceblue;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+#calculator {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 400px;
+    height: 500px;
+    background-color: aliceblue;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 30px;
+}
+#conclusion {
+    display: flex;
+    flex-direction: column;
+}
+.one, .two, .three {
+    background-color: #FEFF86;
+    border: 1px solid black;
+    border-radius: 30px;
+    margin: 15px;
+    padding: 5px;
+    height: 150px;
+    width: 300px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    
+}
+#common {
+    display: flex;
+    justify-content: space-around;
+}
+::placeholder {
+    font-family: 'Montserrat', sans-serif;
+}
+.head {
+    font-size: 30px;
+}
+#btn {
+    background-color: #19A7CE;
+    border-radius: 30px;
+    padding: 5px;
+    font-size: 20px;
+}
+#house, #food, #transport, #entertainment, #income {
+    border-radius: 30px;
+    margin: 5px;
+    padding: 5px;
+}
+@media all and (max-width: 800px) {
+    .text {
+        font-size: 15px;
+    }
+    .head {
+        font-size: 20px;
+    }
+    .one, .two, .three {
+        font-size: 15px;
+        height: 100px;
+        width: 200px;
+    }
+}
+@media all and (max-width: 500px) {
+    .text {
+        font-size: 10px;
+    }
+    .head {
+        font-size: 15px;
+    }
+    .one, .two, .three {
+        font-size: 10px;
+        height: 70px;
+        width: 130px;
+    }
+}
